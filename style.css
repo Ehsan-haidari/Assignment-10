@@ -10,3 +10,14 @@ img{ width: 250px;
     margin:50px auto;
     border-radius: 100%;
     }
+
+    #h1, #p{
+        text-align: center;
+    }
+    .form{
+        
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
