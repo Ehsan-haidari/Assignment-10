@@ -46,6 +46,10 @@ img{ width: 250px;
     button:hover{
         background-color: rgb(252, 142, 9);
     }
+     .form button a{
+        text-decoration: none;
+        color: white;
+    }
 
 
     /*page two*/
@@ -129,3 +133,5 @@ main .content .cards .card {
 }
 
 footer{ text-align: center;}
+
+
