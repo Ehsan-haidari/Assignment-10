@@ -66,3 +66,30 @@ header , footer {
     padding: 20px;
 
 }
+header nav{
+    display: flex;
+}
+
+
+header nav  span{
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius:10px;
+    margin-right: 10px;
+}
+header nav  span:hover{
+    color: rgb(0, 255, 157);
+}
+
+main{
+    display: grid;
+    grid-template-columns:  1fr 5fr;
+    padding: 30px;
+    
+}
+
+ .menu{ 
+    display: flex;
+    flex-direction: column;
+
+}
