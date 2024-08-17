@@ -93,3 +93,37 @@ main{
     flex-direction: column;
 
 }
+
+
+main .content {
+    padding-left: 20px;
+}
+main .menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretchF;
+}
+
+ .menu span{ margin: 5px;
+     border-bottom: 1px solid;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-rows: repeat(3 1fr);
+
+}
+main .content .cards{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}
+main .content .cards .card {
+    background-color: rgb(65, 83, 77);
+    margin: 10px;
+    padding: 50px;
+    text-align: center;
+    color: white;
+     
+}
